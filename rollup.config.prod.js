@@ -6,7 +6,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json'
 
 
-const toolName = 'jUtilsBase'
+const toolName = '_myPdfJs'
 
 function zeroTo2 (data) {
   if(data < 10) {
@@ -30,7 +30,7 @@ function simpleFromatTime (date) {
 
 function getBanner () {
   return `/**
- * 纯JS工具库 => ${toolName}
+ * pdf自行构建 => ${toolName}
  * @update ${simpleFromatTime(new Date())}
  */`
 }
